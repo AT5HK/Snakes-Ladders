@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		504A96061B4AD2BE0047E065 /* BoardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A96051B4AD2BE0047E065 /* BoardGame.m */; };
+		504A96091B4AD2CF0047E065 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A96081B4AD2CF0047E065 /* Player.m */; };
+		504A96161B4B345C0047E065 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A96151B4B345C0047E065 /* Cell.m */; };
+		504A961C1B4B40060047E065 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 504A961B1B4B40060047E065 /* NSMutableArray+Shuffle.m */; };
 		50717C3D1B4AB71B00051940 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50717C3C1B4AB71B00051940 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		504A96041B4AD2BE0047E065 /* BoardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardGame.h; sourceTree = "<group>"; };
+		504A96051B4AD2BE0047E065 /* BoardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardGame.m; sourceTree = "<group>"; };
+		504A96071B4AD2CF0047E065 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		504A96081B4AD2CF0047E065 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		504A96141B4B345C0047E065 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		504A96151B4B345C0047E065 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		504A961A1B4B40060047E065 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Shuffle.h"; path = "../NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		504A961B1B4B40060047E065 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Shuffle.m"; path = "../NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
 		50717C391B4AB71B00051940 /* SnakesLadders */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SnakesLadders; sourceTree = BUILT_PRODUCTS_DIR; };
 		50717C3C1B4AB71B00051940 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				50717C3C1B4AB71B00051940 /* main.m */,
+				504A96041B4AD2BE0047E065 /* BoardGame.h */,
+				504A96051B4AD2BE0047E065 /* BoardGame.m */,
+				504A96141B4B345C0047E065 /* Cell.h */,
+				504A96151B4B345C0047E065 /* Cell.m */,
+				504A961A1B4B40060047E065 /* NSMutableArray+Shuffle.h */,
+				504A961B1B4B40060047E065 /* NSMutableArray+Shuffle.m */,
+				504A96071B4AD2CF0047E065 /* Player.h */,
+				504A96081B4AD2CF0047E065 /* Player.m */,
 			);
 			path = SnakesLadders;
 			sourceTree = "<group>";
@@ -118,6 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				504A96061B4AD2BE0047E065 /* BoardGame.m in Sources */,
+				504A961C1B4B40060047E065 /* NSMutableArray+Shuffle.m in Sources */,
+				504A96161B4B345C0047E065 /* Cell.m in Sources */,
+				504A96091B4AD2CF0047E065 /* Player.m in Sources */,
 				50717C3D1B4AB71B00051940 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,6 +259,7 @@
 				50717C421B4AB71B00051940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
